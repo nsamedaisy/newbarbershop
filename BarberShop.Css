@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688), url(banner.jpg);
@@ -22,7 +22,7 @@
 }
 .banner-text h1{
     font-size: 130px;
-    font-family: 'Butcherman', cursive;
+    font-family: 'Kaushan Script', cursive;
 }
 .banner-text p{
     font-size: 20px;
@@ -102,16 +102,18 @@ nav ul li a{
     display: block;
     margin: 20px auto;
 }
+
 /*--feature--*/
+ 
 #feature{
     width: 100%;
     padding: 70px 0;
 }
-.title text{
+.title-text{
     text-align: center;
     padding-bottom: 70px;
 }
-.title text p{
+.title-text p{
     margin: auto;
     font-size: 20px;
     color: #009688;
@@ -120,7 +122,7 @@ nav ul li a{
     z-index: 1;
     display: inline-block;
 }
-.title text p::after{
+.title-text p::after{
     content: '';
     width: 50px;
     height: 35px;
@@ -133,7 +135,7 @@ nav ul li a{
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
-.title text h1{
+.title-text h1{
     font-size: 50px;
 }
 .feature-box{
@@ -194,14 +196,30 @@ nav ul li a{
     }
 }
 /*--service---*/
+
 #service{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
 }
-
-
-
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.single-service img{
+    width: 100%;
+    border-radius: 7px;
+}
 
 
 
